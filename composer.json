@@ -1,0 +1,23 @@
+{
+    "name": "inerv/testpack",
+    "description": "Description",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Inerv\\Testpack\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vaniq"
+        }
+    ],
+    "minimum-stability": "dev"
+}
